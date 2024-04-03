@@ -9,7 +9,13 @@ request validation, password hashing, profile pic upload, error handling.
 ## .env Configuration
 
 Configure the following environment variables in your .env file:
-
+# MongoDB connection URL
+MONGODB_URI=add url of your database
+# Port number
+PORT=Add Your Port Number
+jwtSecret=Add Your jwt secrent
+EMAIL_USER=Add Your Email Id
+EMAIL_PASS=Add Your Password
 ## Running the Server
 
 Use `nodemon app.js` to run the server.
